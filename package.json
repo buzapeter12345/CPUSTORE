@@ -19,5 +19,13 @@
   "devDependencies": {
     "nodemon": "^2.0.22"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buzapeter12345/CPUSTORE.git"
+  },
+  "bugs": {
+    "url": "https://github.com/buzapeter12345/CPUSTORE/issues"
+  },
+  "homepage": "https://github.com/buzapeter12345/CPUSTORE#readme",
   "description": ""
 }

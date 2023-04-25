@@ -1,16 +1,52 @@
-
-
 * {
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
 }
 
+body {
+    background-color: #e0e0e0;
+}
+
 .container {
     display: grid;
     grid-template-columns: 50% 50%;
+    margin-top: 100px;
+}
+
+#cpu {
+    margin: auto;
 }
 
 img {
     height: 500px;
+    transition: all .2s ease-in-out;
+    border-radius: 32px;
+    -webkit-border-radius: 32px;
+    -moz-border-radius: 32px;
+    -ms-border-radius: 32px;
+    -o-border-radius: 32px;
+    box-shadow:  28px 28px 56px #bebebe,
+             -28px -28px 56px #ffffff;
 }
+
+img:hover {
+    transform: scale(1.1);
+}
+
+.container.fluid {
+    background-color: #e0e0e0;
+}
+
+@media only screen and (max-width: 1000px) {
+    img {
+       height: 250px; 
+    }
+  }
+
+@media only screen and (max-width: 600px) {
+    img {
+       height: 200px; 
+    }
+  }
+  
